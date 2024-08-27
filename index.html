@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Typewriter</title>
+	
+	<meta name="robots" content="All">
+	<meta name="author" content="Udgiver">
+	<meta name="copyright" content="Information om copyright">
+	
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="bg-dark ">
+
+<div class="container">
+	<div class="row vh-100 align-items-center">
+		<div class="col-12 text-center text-light fs-1">
+			<span>Hej, jeg er </span>
+			<span id="featureText"></span>
+			<span class="inputCursor"></span>
+		</div>
+	</div>
+</div>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+	const featureText = document.querySelector("#featureText");
+	const carouselList = [
+		{text: "Designer", color: "#ff0000"},
+		{text: "Udvikler", color: "#ffa500"},
+		{text: "Content Creator", color: "#ffff00"},
+		{text: "Multimediedesigner", color: "#27b627"},
+	];
+</script>
+</body>
+</html>
