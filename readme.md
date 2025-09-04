@@ -2,7 +2,18 @@
 
 Download projektet som ZIP-fil
 
-- Åben projektet og kør kommandoen "npm install" i terminalen
-- Kør "sass" kommandoen fra npm scripts.
 
-Du kan find npm scripts ved at dobbeltrykke på shift, på dit tastatur og søge. Alternativt kan du skrive "npm run sass" i terminalen
+## Kør "setup" kommandoen her under hvis det er første gang du åbner projektet
+```sh
+npm run setup
+```
+
+Setup kommandoen kører "npm install" og "npm run sass" på én gang.
+
+I package.json filen kan du under "scripts" finde sass kommandoen alene.
+Du kan også kører den herfra:
+
+## Hvis det IKKE er første gang du åbner projektet
+```sh
+npm run sass
+```

@@ -1,17 +1,18 @@
 {
-  "name": "npmtest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "sass": "sass --watch --update --style=compressed css:css"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.3.3"
-  },
-  "devDependencies": {
-    "sass": "^1.71.0"
-  }
+    "name": "npmtest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "setup": "npm install && npm run sass",
+        "sass": "sass --watch --update --style=compressed css:css"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.3.6"
+    },
+    "devDependencies": {
+        "sass": "1.78.0"
+    }
 }
